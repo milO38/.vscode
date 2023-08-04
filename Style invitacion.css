@@ -349,7 +349,7 @@ body {
         height: 200%;
     }
     .frase {
-        margin-left: 2%;
+        margin-left: 8%;
         margin-right: 2%;
         width: 96%;
     }
@@ -366,36 +366,49 @@ body {
     #confirmacion{
         width: 250px;
         font-size: 67%;
+        margin-left: 20%;
     }
     #discurso {
-        margin-left: 1%;
+        margin-left: 8%;
         width: 97%;
     }
     #fiesta {
-        margin-left: 1%;
+        margin-left: 8%;
         width: 97%;
     }
 }
 
 @media (max-width: 375px) {
+    html {
+        width: 375px;
+    }
     .navbar-brand {
-        font-size: 200%;
+        font-size: 250%;
         margin-right: 0%;
-        margin-left: 40%;
-        padding-bottom: 10%;
+        margin-left: 18%;
+        padding-bottom: 0%;
     }
     .navbar {
         width: 375px;
-        background-size: cover;
+        height: 10%;
+        background-size: contain;
         background-color: transparent;
     }
      .nav-item {
         visibility: collapse;
         font-size: smaller;
+        margin: 0%;
+        padding: 0%;
+    }
+    #menu {
+        visibility: collapse;
+        font-size: smaller;
+        margin: 0%;
+        padding: 0%;
     }
     .audio {
         margin: 2%;
-        margin-left: 13%;
+        margin-left: 30%;
         width: 70%;
 
     }
@@ -487,5 +500,73 @@ body {
     #fiesta {
         margin-left: 1%;
         width: 97%;
+    }
+}   
+
+@media (max-width: 320px) {
+    .navbar-brand {
+        font-size: 140%;
+        margin-right: 0%;
+        margin-left: 17%;
+        padding-bottom: 9%;
+    }
+    .navbar {
+        width: 250px;
+        background-size: contain;
+        background-color: transparent;
+    }
+     .nav-item {
+        visibility: collapse;
+        font-size: smaller;
+        margin: 0%;
+        padding: 0%;
+    }
+    #menu {
+        visibility: collapse;
+        font-size: smaller;
+        margin: 0%;
+        padding: 0%;
+    }
+    .audio {
+        margin: 2%;
+        margin-left: 4%;
+        width: 70%;
+
+    }
+    #c {
+        margin-left: 3%;
+        width: 220px;
+        height: 100%;
+    }
+    .frase {
+        margin-left: 3%;
+        margin-right: 1%;
+        width: 70%;
+        height: 10%;
+    }
+    .titulo {
+        margin-left: 10%;
+        font-size: 200%;
+    }
+    .subtitulo {
+        font-size: 100%;
+    }
+    .textxcard {
+        font-size: 95%;
+    }
+    #confirmacion{
+        width: 220px;
+        font-size: 45%;
+        margin-left: 5%;
+    }
+    #discurso {
+        margin-left: 1%;
+        width: 72%;
+        height: 10%;
+    }
+    #fiesta {
+        margin-left: 1%;
+        width: 72%;
+        height: 10%;
     }
 }   
