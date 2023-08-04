@@ -10,7 +10,7 @@ html, body {
     background-color: rgb(226, 223, 206);
 }
 body {
-    background-image: url(Dylan\ y\ Cami/fondo.jpg);
+    background-image: url(.vscode/Dylan\ y\ Cami/fondo.JPG);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
