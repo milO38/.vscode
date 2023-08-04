@@ -276,7 +276,12 @@ body {
     }
 }
 
-
+@media screen and (max-width:767) {
+    .navbar-brand {
+        padding-bottom: 0%;
+    }
+}
+    
 
 @media (max-width: 576px ) {
     .navbar-brand {
