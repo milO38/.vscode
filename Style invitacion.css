@@ -316,21 +316,26 @@ body {
     }
 }
 
-@media (max-width: 480px) {
+@media screen (max-width: 481px) {
     .navbar-brand {
         font-size: 340%;
         margin-right: 18%;
         margin-left: 19%;
-        padding-bottom: 11%;
+        padding-bottom: 5%;
+        margin-top: 5%;
     }
     .navbar {
         width: 480px;
         background-size: contain;
         background-color: transparent;
     }
+    #menu {
+        visibility: collapse;
+        font-size: smaller;
+    }
      .nav-item {
         visibility: collapse;
-        font-size: 1%;
+        font-size: smaller;
         padding: 0%;
         margin: 0%;
         
@@ -372,12 +377,6 @@ body {
     #fiesta {
         margin-left: 1%;
         width: 97%;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .navbar-brand {
-        padding-bottom: 0%;
     }
 }
 
@@ -463,6 +462,63 @@ body {
     #c {
         margin-left: 1%;
         width: 350px;
+        height: 200%;
+    }
+    .frase {
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 96%;
+    }
+    .titulo {
+        margin-left: 10%;
+        font-size: 300%;
+    }
+    .subtitulo {
+        font-size: 150%;
+    }
+    .textxcard {
+        font-size: 200%;
+    }
+    #confirmacion{
+        width: 250px;
+        font-size: 67%;
+    }
+    #discurso {
+        margin-left: 1%;
+        width: 97%;
+    }
+    #fiesta {
+        margin-left: 1%;
+        width: 97%;
+    }
+}   
+
+
+@media (max-width: 320px) {
+    .navbar-brand {
+        font-size: 200%;
+        margin-right: 0%;
+        margin-left: 25%;
+        padding-bottom: 10%;
+    }
+    .navbar {
+        width: 320px;
+        background-size: contain;
+        background-color: transparent;
+    }
+     .nav-item {
+        visibility: collapse;
+        font-size: smaller;
+    }
+    .audio {
+        margin: 2%;
+        margin-left: 13%;
+        width: 70%;
+
+    }
+    #c {
+        margin-left: 1%;
+        width: 320px;
         height: 200%;
     }
     .frase {
