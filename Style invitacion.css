@@ -316,7 +316,7 @@ body {
     }
 }
 
-@media (min-width: 478px) and (max-width: 481px) {
+@media (max-width: 480px) {
     .navbar-brand {
         font-size: 340%;
         margin-right: 18%;
@@ -330,7 +330,7 @@ body {
     }
      .nav-item {
         visibility: collapse;
-        font-size: smaller;
+        font-size: 1%;
         padding: 0%;
         margin: 0%;
         
@@ -339,7 +339,6 @@ body {
         margin: 2%;
         margin-left: 13%;
         width: 70%;
-
     }
     #c {
         margin-left: 13%;
@@ -364,6 +363,7 @@ body {
     #confirmacion{
         width: 250px;
         font-size: 67%;
+        margin-left: 5%;
     }
     #discurso {
         margin-left: 1%;
