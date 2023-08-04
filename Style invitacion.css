@@ -276,13 +276,6 @@ body {
     }
 }
 
-@media screen and (max-width: 767px) {
-    .navbar-brand {
-        padding-bottom: 0%;
-    }
-}
-    
-
 @media (max-width: 576px ) {
     .navbar-brand {
         font-size: 200%;
@@ -323,10 +316,10 @@ body {
     }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 478px) and (max-width: 481px) {
     .navbar-brand {
         font-size: 340%;
-        margin-right: 0%;
+        margin-right: 18%;
         margin-left: 19%;
         padding-bottom: 11%;
     }
