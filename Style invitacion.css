@@ -316,7 +316,7 @@ body {
     }
 }
 
-@media screen (max-width: 481px) {
+@media (max-width: 481px) {
     .navbar-brand {
         font-size: 340%;
         margin-right: 18%;
