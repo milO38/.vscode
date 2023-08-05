@@ -391,7 +391,7 @@ body {
         padding-bottom: 0%;
     }
     .navbar {
-        width: 375px;
+        width: 365px;
         height: 10%;
         background-size: contain;
         background-color: transparent;
@@ -448,6 +448,38 @@ body {
     }
     
 }   
+
+@media (max-width: 374px) {
+    #c {
+        margin-left: 12%;
+        width: 70%;
+        height: 350%;
+    }
+    .audio {
+        margin-left: 10%;
+    }
+    .navbar-brand {
+        padding-bottom: 10%;
+    }
+    #confirmacion {
+        margin-left: 7%;
+    }
+    .frase {
+        margin-left: 3%;
+        margin-right: 0%;
+        width: 90%;
+    }
+    .titulo {
+        margin-left: 10%;
+        font-size: 320%;
+    }
+    .subtitulo {
+        font-size: 150%;
+    }
+    .textxcard {
+        font-size: 200%;
+    }
+}
 
 @media (max-width: 360px) {
     .navbar-brand {
@@ -507,13 +539,13 @@ body {
 
 @media (max-width: 320px) {
     .navbar-brand {
-        font-size: 140%;
+        font-size: 170%;
         margin-right: 0%;
-        margin-left: 17%;
-        padding-bottom: 9%;
+        margin-left: 20%;
+        padding-bottom: 4%;
     }
     .navbar {
-        width: 250px;
+        width: 310px;
         background-size: contain;
         background-color: transparent;
     }
@@ -536,12 +568,12 @@ body {
 
     }
     #c {
-        margin-left: 3%;
+        margin-left: 6%;
         width: 220px;
         height: 100%;
     }
     .frase {
-        margin-left: 3%;
+        margin-left: 2%;
         margin-right: 1%;
         width: 70%;
         height: 10%;
