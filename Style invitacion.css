@@ -415,9 +415,9 @@ body {
 
     }
     #c {
-        margin-left: 1%;
-        width: 37px;
-        height: 200%;
+        margin-left: 12%;
+        width: 70%;
+        height: 350%;
     }
     .frase {
         margin-left: 2%;
@@ -480,6 +480,39 @@ body {
         font-size: 200%;
     }
 }
+
+@media (min-width: 374px) {
+    #c {
+        margin-left: 12%;
+        width: 70%;
+        height: 350%;
+    }
+    .audio {
+        margin-left: 10%;
+    }
+    .navbar-brand {
+        padding-bottom: 10%;
+    }
+    #confirmacion {
+        margin-left: 7%;
+    }
+    .frase {
+        margin-left: 3%;
+        margin-right: 0%;
+        width: 90%;
+    }
+    .titulo {
+        margin-left: 10%;
+        font-size: 320%;
+    }
+    .subtitulo {
+        font-size: 150%;
+    }
+    .textxcard {
+        font-size: 200%;
+    }
+}
+
 
 @media (max-width: 360px) {
     .navbar-brand {
